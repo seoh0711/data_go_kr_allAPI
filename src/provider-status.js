@@ -1,0 +1,2 @@
+const descriptions={redirect_blocked:'기관 리디렉션 차단',authentication:'인증키 확인 필요',approval_required:'서비스 활용 승인 확인',ip_restricted:'기관 IP 제한',quota:'호출 한도 초과',access_denied:'기관 접근 거부',timeout:'기관 응답 시간 초과',response_format:'기관 응답 형식 확인',transport:'기관 연결 오류',cache:'서버 캐시 처리 오류',provider_error:'기관 오류 응답',http:'기관 HTTP 오류'};
+export function providerIssue(source){return source?.status==='error'?descriptions[source.failure?.kind]||null:null}

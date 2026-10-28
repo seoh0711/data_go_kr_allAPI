@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.playwright/
+test-results/
+*.log
+__pycache__/
+*.py[cod]
+.env
+.env.*
+.dev.vars
+.dev.vars.*
+.wrangler/
+playwright-report/
+coverage/
+*.pem
+*.key

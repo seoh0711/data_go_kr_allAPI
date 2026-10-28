@@ -1,0 +1,20 @@
+import {test,expect} from '@playwright/test';
+import {readFileSync} from 'node:fs';
+const snapshot=JSON.parse(readFileSync(new URL('../../public/catalog.json',import.meta.url)));
+test('real official catalog loads, filters, and survives reload without importing',async({page})=>{
+ const errors=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.goto('/');
+ await expect(page.locator('.catalog-title h2')).toContainText(snapshot.metadata.count.toLocaleString());
+ await expect(page.locator('.stat').first()).toContainText(snapshot.metadata.count.toLocaleString());
+ await page.locator('.category-block').filter({hasText:'교통물류'}).click();
+ await expect(page.locator('.catalog-title h2')).toContainText(snapshot.metadata.categories['교통물류'].toLocaleString());
+ await page.getByRole('button',{name:'전체',exact:true}).click();
+ const row=snapshot.data[0];await page.getByRole('textbox',{name:'API 검색'}).fill(row.title);
+ await expect(page.locator('.api-card').first()).toContainText(row.title);
+ await page.locator('.api-card .card-body').first().click();
+ await expect(page.locator('dialog')).toContainText('공공데이터포털 목록 조회 API');
+ await expect(page.locator('dialog a')).toHaveAttribute('href',row.url);
+ await page.keyboard.press('Escape');await page.reload();
+ await expect(page.locator('.catalog-title h2')).toContainText(snapshot.metadata.count.toLocaleString());
+ expect(errors).toEqual([]);
+});

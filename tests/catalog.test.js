@@ -1,0 +1,7 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {sampleData,categories,filterData,validateCatalog} from '../src/data.js';
+test('sample covers all 16 categories and validates',()=>{assert.equal(categories.length,16);assert.equal(new Set(sampleData.map(d=>d.category)).size,16);assert.equal(validateCatalog(sampleData).length,30)});
+test('search matches organization and tags and combines category/format',()=>{assert.ok(filterData(sampleData,{query:'기상청'}).every(d=>d.organization==='기상청'));assert.equal(filterData(sampleData,{query:'기상청'}).length,1);assert.equal(filterData(sampleData,{query:' 버스 ',category:'교통물류',format:'XML'}).length,1);assert.equal(filterData(sampleData,{query:'버스',category:'교육'}).length,0)});
+test('bookmarks and name sort do not mutate original data',()=>{assert.deepEqual(filterData(sampleData,{bookmarks:['sample-2']}).map(d=>d.id),['sample-2']);assert.equal(filterData(sampleData,{bookmarks:[]}).length,0);const before=sampleData.map(d=>d.id);filterData(sampleData,{sort:'name'});assert.deepEqual(sampleData.map(d=>d.id),before)});
+test('import rejects duplicates, unknown categories, unsafe links and malformed data',()=>{for(const input of [[],{},[sampleData[0],sampleData[0]],[{...sampleData[0],category:'invalid'}],[{...sampleData[0],url:'javascript:alert(1)'}],[{...sampleData[0],url:'https://example.com'}],[{...sampleData[0],tags:'bad'}],[{...sampleData[0],title:null}]]){assert.throws(()=>validateCatalog(input))}});
