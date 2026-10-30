@@ -1,0 +1,58 @@
+{
+  "measuredAt": "2026-10-30T08:46:07.685Z",
+  "kind": "에이전트 대리 과업",
+  "cases": [
+    {
+      "mode": "모바일",
+      "baseURL": "http://127.0.0.1:5173",
+      "apiIds": [
+        "15113968",
+        "15090532"
+      ],
+      "comparisonGroups": 10,
+      "detailRoundTrips": 0,
+      "externalReconstruction": 0,
+      "reviewItems": 3,
+      "reviewPendingNotice": true,
+      "reviewMarkedPreparation": 1,
+      "selectionPreservedAfterFailure": null,
+      "overflow": false,
+      "realUserOutcome": "미측정"
+    },
+    {
+      "mode": "키보드",
+      "baseURL": "http://127.0.0.1:5173",
+      "apiIds": [
+        "15113968",
+        "15090532"
+      ],
+      "comparisonGroups": 10,
+      "detailRoundTrips": 0,
+      "externalReconstruction": 0,
+      "reviewItems": 3,
+      "reviewPendingNotice": true,
+      "reviewMarkedPreparation": 1,
+      "selectionPreservedAfterFailure": null,
+      "overflow": false,
+      "realUserOutcome": "미측정"
+    },
+    {
+      "mode": "오류복구",
+      "baseURL": "http://127.0.0.1:5173",
+      "apiIds": [
+        "15113968",
+        "15090532"
+      ],
+      "comparisonGroups": 10,
+      "detailRoundTrips": 0,
+      "externalReconstruction": 0,
+      "reviewItems": 3,
+      "reviewPendingNotice": true,
+      "reviewMarkedPreparation": 1,
+      "selectionPreservedAfterFailure": true,
+      "overflow": false,
+      "realUserOutcome": "미측정"
+    }
+  ],
+  "realUserOutcome": "미측정"
+}

@@ -1,0 +1,27 @@
+{
+  "verifiedAt": "2026-10-30T08:49:26.055Z",
+  "kind": "운영 UI 실제 응답 확인",
+  "sources": [
+    {
+      "key": "gov24",
+      "status": "live",
+      "rows": 100,
+      "fetchedAt": "2026-10-30T08:49:17.859Z"
+    },
+    {
+      "key": "central",
+      "status": "live",
+      "rows": 100,
+      "fetchedAt": "2026-10-30T08:49:16.427Z"
+    },
+    {
+      "key": "local",
+      "status": "live",
+      "rows": 100,
+      "fetchedAt": "2026-10-30T08:49:16.819Z"
+    }
+  ],
+  "before": "아직 확인 전",
+  "after": "선택한 두 기관 정상 자료 수신",
+  "selectionCount": 2
+}

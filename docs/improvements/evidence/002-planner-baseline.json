@@ -1,0 +1,43 @@
+{
+  "measuredAt": "2026-10-30T08:42:37.999Z",
+  "sourceCommit": "dff9e59a7ef6b5274aaa9e9efb528074f764a6a7",
+  "kind": "에이전트 대리 과업",
+  "cases": [
+    {
+      "mode": "모바일",
+      "apiIds": [
+        "15090532",
+        "15113968"
+      ],
+      "metadataGroupsAvailable": 4,
+      "adapterContractGroupsInApp": 0,
+      "reviewControls": 0,
+      "nativePrepared": 0,
+      "realUserOutcome": "미측정"
+    },
+    {
+      "mode": "키보드",
+      "apiIds": [
+        "15090532",
+        "15113968"
+      ],
+      "metadataGroupsAvailable": 4,
+      "adapterContractGroupsInApp": 0,
+      "reviewControls": 0,
+      "nativePrepared": 0,
+      "realUserOutcome": "미측정"
+    },
+    {
+      "mode": "빈결과복귀",
+      "apiIds": [
+        "15090532",
+        "15113968"
+      ],
+      "metadataGroupsAvailable": 4,
+      "adapterContractGroupsInApp": 0,
+      "reviewControls": 0,
+      "nativePrepared": 0,
+      "realUserOutcome": "미측정"
+    }
+  ]
+}

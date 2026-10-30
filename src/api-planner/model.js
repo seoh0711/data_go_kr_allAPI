@@ -1,0 +1,15 @@
+import {benefitSources} from '../benefits/config.js';
+import {parkingSources} from '../parking/config.js';
+import {cultureSources} from '../culture/config.js';
+import {validateFeed} from '../benefits/model.js';
+import {validateParkingFeed} from '../parking/model.js';
+import {validateCultureFeed} from '../culture/model.js';
+export const groups={benefits:{label:'공공서비스',path:'/api/benefits',validate:validateFeed},parking:{label:'주차',path:'/api/parking',validate:validateParkingFeed},culture:{label:'문화',path:'/api/culture',validate:validateCultureFeed}};
+export const contracts=[...benefitSources.map(s=>({...s,group:'benefits',limit:100,cache:'최대30분',boundary:'첫100건 범위. 개인 자격·선택 시설과의 지원 연계 판단 불가.'})),...parkingSources.map(s=>({...s,group:'parking',limit:20,cache:s.key==='availability'?'최대1분':'최대15분',boundary:'부산 기관의 첫20건 범위. 주차장 현황을 현재 입차/빈 자리 보장으로 해석하지 않음.'})),...cultureSources.map(s=>({...s,group:'culture',limit:20,cache:'최대60분',boundary:'첫20건 범위. 행사/시설 자료를 현재 개방·접수·인근 관계로 해석하지 않음.'}))];
+export const reviews=['공통 키 사용과 각 서비스의 활용승인은 별개임을 검토했습니다.','첫 페이지·캐시 자료가 전체 목록/현재 이용 보장이 아님을 검토했습니다.','공식 명세와 현재 응답을 다시 확인해야 함을 검토했습니다.'];
+export function validateSnapshot(p){if(p?.metadata?.count!==7||p.metadata.catalogCount!==12051||!Number.isFinite(Date.parse(p.metadata.catalogCollectedAt))||!Array.isArray(p.data)||p.data.length!==7)return null;const ids=new Set();for(const r of p.data){if(!contracts.some(c=>c.id===r.id)||ids.has(r.id)||!['id','title','organization','format','updatedAt','url'].every(k=>typeof r[k]==='string'&&r[k].length<6000)||r.url!==`https://www.data.go.kr/data/${r.id}/openapi.do`)return null;ids.add(r.id)}return p;}
+export function records(p){return p.data.map(r=>({...r,...contracts.find(c=>c.id===r.id),title:r.title,format:r.format,updatedAt:r.updatedAt,url:r.url,organization:r.organization}));}
+export function filterRows(rows,q,group){if(typeof q!=='string'||q.length>100||!['전체',...Object.keys(groups)].includes(group))return [];return rows.filter(r=>(group==='전체'||r.group===group)&&[r.title,r.organization,r.id].join(' ').toLowerCase().includes(q.trim().toLowerCase()));}
+export function toggle(rows,r){return rows.some(v=>v.id===r.id)?rows.filter(v=>v.id!==r.id):rows.length<2?[...rows,r]:rows;}
+export function preparation(selected,checked){if(selected.length!==2||new Set(selected.map(r=>r.id)).size!==2||checked.length!==3||!checked.every(v=>v===true))return null;return ['API 조합 준비서','이 문서는 준비 메모이며 활용승인·기관 확인·연결 완료를 뜻하지 않습니다.',...selected.flatMap((r,i)=>[`후보${i+1}: ${r.title} · ${r.organization}`,`목록 수정일: ${r.updatedAt} · 공식 근거: ${r.url}`,`기관 HTTPS 경로: ${r.endpoint}`,`목록 형식: ${r.format} / 브라우저 응답: 정규화 JSON`,`앱 호출 범위: 첫 최대${r.limit}건 / 성공 캐시 ${r.cache}`,`인증 변수명: DATA_GO_KR_SERVICE_KEY (공통 fallback), ${r.secret} (기존 override)`,`한계: ${r.boundary}`,'']), '검토 표시 (직접 읽었다는 표시이며 실제 기관 확인이 아님)',...reviews.map(v=>'[검토] '+v),'비밀키를 문서/브라우저에 넣지 말고,각 공식 서비스 활용승인과 현재 운영 설정을 확인하세요.'].join('\n');}
+export function statusLabel(s){return !s?'아직 확인 전':({live:'기관 정상 자료 수신',empty:'기관 결과 없음',needs_key:'운영 키 연결 필요',error:'기관 조회 실패'}[s.status]||'확인 실패');}
