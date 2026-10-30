@@ -1,0 +1,26 @@
+{
+  "verifiedAt": "2026-10-30T20:53:37.328Z",
+  "kind": "운영 UI 실제 관측 응답",
+  "serverCheckedAt": "2026-10-30T20:53:37.254Z",
+  "publicTestRegion": "인천광역시",
+  "independentObservationCity": "suwon",
+  "sources": [
+    {
+      "key": "weather",
+      "status": "live",
+      "hasObservation": true,
+      "observedAt": "20261031 0500",
+      "sourceFetchedAt": null
+    },
+    {
+      "key": "air",
+      "status": "live",
+      "hasObservation": true,
+      "observedAt": "2026-10-31 05:00",
+      "sourceFetchedAt": null
+    }
+  ],
+  "replacementGroupsPreserved": 5,
+  "reviewCountPreserved": 3,
+  "memoPreserved": true
+}

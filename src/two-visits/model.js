@@ -1,0 +1,27 @@
+import {validateLibrarySnapshot} from '../culture/model.js';
+import {validateParkSnapshot} from '../parks/model.js';
+export const sources={library:{label:'도서관',path:'/culture-libraries.json',url:'https://www.data.go.kr/data/15013109/standard.do',validate:validateLibrarySnapshot},park:{label:'공원',path:'/parks-snapshot.json',url:'https://www.data.go.kr/data/15012890/standard.do',validate:validateParkSnapshot}};
+export const reviews=['두 장소의 거리·이동시간·동선·운영시간 겹침은 계산하지 않았음을 검토했습니다.','현재 개방·출입·휴무·사용 조건은 기관 확인이 필요함을 검토했습니다.','같은 지역명도 인접을 뜻하지 않으며 원문 시설이 현재 이용 보장이 아님을 검토했습니다.'];
+export const groupLabels=['명칭·주소','공개 연락처','기준일·공식 근거','시간 원문','시설·현재 확인할 한계'];
+const val=v=>v||'원자료 미제공';
+export function validateSource(kind,p){const c=sources[kind];return c&&c.validate(p)&&p.metadata.sourceUrl===c.url&&typeof p.metadata.coverage==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(p.metadata.oldestDataDate)&&/^\d{4}-\d{2}-\d{2}$/.test(p.metadata.newestDataDate)&&/^[a-f0-9]{64}$/.test(p.metadata.htmlSha256)?p:null;}
+export function normalize(kind,p){return p.data.map(r=>({id:r.id,slot:kind,name:r.name,address:r.address,region:r.region,phone:r.phone,dataDate:r.dataDate,sourceUrl:sources[kind].url,hours:kind==='library'?`평일 ${r.weekday.map(val).join('~')} / 토요일 ${r.saturday.map(val).join('~')} / 공휴일 ${r.holiday.map(val).join('~')} / 휴관 ${val(r.closed)}`:'운영시간/휴무: 원자료 미제공',conditions:kind==='library'?`유형 ${r.type} / 시설 세부정보·이용요금: 원자료 미제공. 현재 출입·휴무·안내 조건은 기관 확인 필요.`:`구분 ${r.type} / 운동 ${val(r.sports)} / 유희 ${val(r.play)} / 편익 ${val(r.convenience)} / 교양 ${val(r.culture)} / 기타 ${val(r.other)} / 이용요금: 원자료 미제공. 현재 개방·시설 작동·현장 조건은 기관 확인 필요.`}));}
+export function filterRows(rows,query,region){if(typeof query!=='string'||query.length>100||typeof region!=='string')return [];const q=query.trim().toLowerCase();return rows.filter(r=>(region==='전체'||r.region===region)&&[r.name,r.address,r.conditions].join(' ').toLowerCase().includes(q));}
+export function groupValues(r){return [`${r.name} / ${r.address}`,val(r.phone),`${r.dataDate} / ${r.sourceUrl}`,r.hours,r.conditions];}
+export function replacementDiff(before,after){if(!before||!after||before.slot!==after.slot||before.id===after.id)return [];const a=groupValues(before),b=groupValues(after);return groupLabels.map((label,i)=>({label,before:a[i],after:b[i],changed:a[i]!==b[i]}));}
+export function initialState(){return {selected:{library:null,park:null},order:'',review:[false,false,false],memo:'',pending:null,undo:null,notice:''};}
+export const countSelected=s=>Object.values(s.selected).filter(Boolean).length;
+export function note(s){if(countSelected(s)!==2||!['library','park'].includes(s.order)||s.review.length!==3||!s.review.every(v=>v===true)||s.pending)return null;const ordered=[s.order,s.order==='library'?'park':'library'];return ['두곳 방문 준비 노트','순서는 사용자가 정한 참고 순서이며 이동 경로·거리·시간·같은날 방문 가능을 계산한 결과가 아닙니다.',...ordered.flatMap((kind,i)=>{const r=s.selected[kind];return [`참고 순서${i+1}: ${sources[kind].label} ${r.name}`,`주소: ${r.address}`,`공개전화: ${val(r.phone)}`,`자료 기준일/공식 근거: ${r.dataDate} / ${r.sourceUrl}`,`시간 원문: ${r.hours}`,`시설/현재 확인할 한계: ${r.conditions}`,'']}),...reviews.map(q=>'[검토 표시] '+q),'검토는 문구를 읽었다는 표시이며 실제 기관 확인·방문/예약 완료가 아닙니다. 기상/대기 관측은 별도 참고이며 이 노트에 현장/미래 상태로 포함하지 않습니다.'].join('\n');}
+function saved(s,revision){return {selected:{...s.selected},order:s.order,review:[...s.review],memo:s.memo,revision};}
+export function transition(s,a,revision){if(a.type==='cancel')return {...s,pending:null,notice:'교체를 취소했습니다. 기존 선택·검토·준비 문구는 유지됩니다.'};
+if(a.type==='undo'){if(s.pending)return s;if(!s.undo)return {...s,notice:'복구할 변경이 없습니다.'};if(s.undo.revision!==revision)return {...initialState(),notice:'자료 판본이 달라 과거 준비 상태를 복구하지 않습니다.'};const {revision:oldRevision,...restored}=s.undo;return {...s,...restored,pending:null,undo:null,notice:'직전 선택·검토·문구를 복원했습니다. 현재 기관 확인을 뜻하지 않습니다.'};}
+if(a.type==='confirm'){const p=s.pending;if(!p)return s;if(p.revision!==revision)return {...initialState(),notice:'자료 판본이 바뀌어 교체 검토를 취소했습니다.'};if(s.selected[p.after.slot]?.id!==p.before.id)return {...s,pending:null,notice:'원래 선택이 달라 교체를 확정하지 않았습니다.'};return {...s,selected:{...s.selected,[p.after.slot]:p.after},review:[false,false,false],memo:'',pending:null,undo:saved(s,revision),notice:'교체했습니다. 검토3개와 이전 준비 문구를 초기화했습니다. 직전 변경을 되돌릴 수 있습니다.'};}
+if(s.pending)return s;
+if(a.type==='prepare'){const memo=note(s);return memo?{...s,memo,notice:'공개 근거와 검토를 포함한 방문 노트를 만들었습니다.'}:s;}
+let next=s;
+if(a.type==='choose'){const r=a.row;if(!r||!Object.hasOwn(sources,r.slot))return s;const before=s.selected[r.slot];if(before&&before.id!==r.id)return {...s,pending:{before,after:r,revision},notice:'교체 전후 원문과 초기화 영향을 확인하세요. 아직 선택은 바뀌지 않았습니다.'};next={...s,selected:{...s.selected,[r.slot]:before?null:r},review:[false,false,false],memo:''};if(countSelected(next)<2)next.order='';}
+else if(a.type==='clear'){if(!countSelected(s))return s;next={...s,selected:{library:null,park:null},order:'',review:[false,false,false],memo:''};}
+else if(a.type==='order'){if(countSelected(s)!==2||!['library','park'].includes(a.value))return s;next={...s,order:a.value,review:[false,false,false],memo:''};}
+else if(a.type==='review'){if(!Number.isInteger(a.index)||a.index<0||a.index>2||typeof a.value!=='boolean')return s;next={...s,review:s.review.map((v,i)=>i===a.index?a.value:v),memo:''};}
+else return s;
+return {...next,undo:saved(s,revision),notice:'선택/검토 변경 전 상태를 같은 자료 판본에서 마지막1회 되돌릴 수 있습니다.'};}

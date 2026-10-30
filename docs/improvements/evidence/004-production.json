@@ -1,0 +1,91 @@
+{
+  "measuredAt": "2026-10-30T20:53:48.209Z",
+  "kind": "에이전트 대리 과업",
+  "cases": [
+    {
+      "mode": "모바일",
+      "baseURL": "https://data-go-kr-api-atlas.pages.dev",
+      "inputRegion": "인천광역시",
+      "recordIds": [
+        "library-83c362cd70d739dd",
+        "park-28eea4de771c5044",
+        "library-b171243589b486d8"
+      ],
+      "sourceRevisions": {
+        "library": "e6ec98ad218b07987d41b987ced1cc97d995278da6b6c475e6559b1c695d7da3",
+        "park": "cd6200a709ad06d678895cce197379bf978bb760d9c9aee52f891b231de6957e"
+      },
+      "verifiedGroups": 10,
+      "replacementGroups": 5,
+      "actualChangedGroups": 2,
+      "proposalPreservedMemo": true,
+      "cancelPreservedState": true,
+      "explicitReplacement": 1,
+      "confirmedInvalidatedReview": true,
+      "undoRestoredMemo": true,
+      "repreparedNewSelection": 1,
+      "reviewCount": 3,
+      "detailRoundTrips": 0,
+      "externalReconstruction": 0,
+      "overflow": false,
+      "realUserOutcome": "미측정"
+    },
+    {
+      "mode": "키보드",
+      "baseURL": "https://data-go-kr-api-atlas.pages.dev",
+      "inputRegion": "인천광역시",
+      "recordIds": [
+        "library-83c362cd70d739dd",
+        "park-28eea4de771c5044",
+        "library-b171243589b486d8"
+      ],
+      "sourceRevisions": {
+        "library": "e6ec98ad218b07987d41b987ced1cc97d995278da6b6c475e6559b1c695d7da3",
+        "park": "cd6200a709ad06d678895cce197379bf978bb760d9c9aee52f891b231de6957e"
+      },
+      "verifiedGroups": 10,
+      "replacementGroups": 5,
+      "actualChangedGroups": 2,
+      "proposalPreservedMemo": true,
+      "cancelPreservedState": true,
+      "explicitReplacement": 1,
+      "confirmedInvalidatedReview": true,
+      "undoRestoredMemo": true,
+      "repreparedNewSelection": 1,
+      "reviewCount": 3,
+      "detailRoundTrips": 0,
+      "externalReconstruction": 0,
+      "overflow": false,
+      "realUserOutcome": "미측정"
+    },
+    {
+      "mode": "오류복구",
+      "baseURL": "https://data-go-kr-api-atlas.pages.dev",
+      "inputRegion": "인천광역시",
+      "recordIds": [
+        "library-83c362cd70d739dd",
+        "park-28eea4de771c5044",
+        "library-b171243589b486d8"
+      ],
+      "sourceRevisions": {
+        "library": "e6ec98ad218b07987d41b987ced1cc97d995278da6b6c475e6559b1c695d7da3",
+        "park": "cd6200a709ad06d678895cce197379bf978bb760d9c9aee52f891b231de6957e"
+      },
+      "verifiedGroups": 10,
+      "replacementGroups": 5,
+      "actualChangedGroups": 2,
+      "proposalPreservedMemo": true,
+      "cancelPreservedState": true,
+      "explicitReplacement": 1,
+      "confirmedInvalidatedReview": true,
+      "undoRestoredMemo": true,
+      "repreparedNewSelection": 1,
+      "reviewCount": 3,
+      "detailRoundTrips": 0,
+      "externalReconstruction": 0,
+      "overflow": false,
+      "realUserOutcome": "미측정"
+    }
+  ],
+  "realUserOutcome": "미측정"
+}

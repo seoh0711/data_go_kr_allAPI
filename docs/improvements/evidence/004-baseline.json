@@ -1,0 +1,164 @@
+{
+  "sourceCommit": "001d9830dad5c12caeae25299b25cb04a4639d42",
+  "kind": "에이전트 대리 과업",
+  "meeting": {
+    "measuredAt": "2026-10-30T20:36:49.256Z",
+    "kind": "에이전트 대리 과업",
+    "cases": [
+      {
+        "replacementPreview": 0,
+        "explicitReplacementDecision": 0,
+        "mode": "모바일",
+        "baseURL": "https://data-go-kr-api-atlas.pages.dev",
+        "recordIds": [
+          "room-7c970db0ff5acf41",
+          "room-73b4ad3036c4087b"
+        ],
+        "sourceRevision": "8ae1cd6602678d0df60a85e16afda4d2d81b8c1b6d0d11731fbfedd86763efce",
+        "verifiedGroups": 10,
+        "sourceQuestions": 3,
+        "reviewCount": 3,
+        "prepared": 1,
+        "restoredPreparedAfterClear": 1,
+        "restoreActivationCount": 1,
+        "restoredTextEqual": true,
+        "detailRoundTrips": 0,
+        "externalReconstruction": 0,
+        "overflow": false,
+        "realUserOutcome": "미측정"
+      },
+      {
+        "replacementPreview": 0,
+        "explicitReplacementDecision": 0,
+        "mode": "키보드",
+        "baseURL": "https://data-go-kr-api-atlas.pages.dev",
+        "recordIds": [
+          "room-7c970db0ff5acf41",
+          "room-73b4ad3036c4087b"
+        ],
+        "sourceRevision": "8ae1cd6602678d0df60a85e16afda4d2d81b8c1b6d0d11731fbfedd86763efce",
+        "verifiedGroups": 10,
+        "sourceQuestions": 3,
+        "reviewCount": 3,
+        "prepared": 1,
+        "restoredPreparedAfterClear": 1,
+        "restoreActivationCount": 1,
+        "restoredTextEqual": true,
+        "detailRoundTrips": 0,
+        "externalReconstruction": 0,
+        "overflow": false,
+        "realUserOutcome": "미측정"
+      },
+      {
+        "replacementPreview": 0,
+        "explicitReplacementDecision": 0,
+        "mode": "오류복구",
+        "baseURL": "https://data-go-kr-api-atlas.pages.dev",
+        "recordIds": [
+          "room-7c970db0ff5acf41",
+          "room-73b4ad3036c4087b"
+        ],
+        "sourceRevision": "8ae1cd6602678d0df60a85e16afda4d2d81b8c1b6d0d11731fbfedd86763efce",
+        "verifiedGroups": 10,
+        "sourceQuestions": 3,
+        "reviewCount": 3,
+        "prepared": 1,
+        "restoredPreparedAfterClear": 1,
+        "restoreActivationCount": 1,
+        "restoredTextEqual": true,
+        "detailRoundTrips": 0,
+        "externalReconstruction": 0,
+        "overflow": false,
+        "realUserOutcome": "미측정"
+      }
+    ],
+    "realUserOutcome": "미측정"
+  },
+  "parks": {
+    "measuredAt": "2026-10-30T20:36:36.839Z",
+    "kind": "에이전트 자동화 대리 과업",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "sourceCommit": "001d9830dad5c12caeae25299b25cb04a4639d42",
+    "cases": [
+      {
+        "service": "parks",
+        "mode": "모바일",
+        "sourceSha256": "acf65a94342b8eff374b83f1f9004f7ba516608068a9249b2363d046d5128f25",
+        "candidates": [
+          {
+            "name": "노을공원",
+            "phone": "tel:0324562749",
+            "dataDate": "2026-09-01",
+            "verifiedFields": 5
+          },
+          {
+            "name": "정서진문화공원",
+            "phone": "tel:0324562749",
+            "dataDate": "2026-09-01",
+            "verifiedFields": 5
+          }
+        ],
+        "detailRoundTrips": 2,
+        "manualReconstructionFields": 10,
+        "nativePrepared": 0,
+        "comparisonRegion": 0,
+        "fieldsAvailableIndividually": 10,
+        "realUserOutcome": "미측정"
+      },
+      {
+        "service": "parks",
+        "mode": "키보드",
+        "sourceSha256": "acf65a94342b8eff374b83f1f9004f7ba516608068a9249b2363d046d5128f25",
+        "candidates": [
+          {
+            "name": "노을공원",
+            "phone": "tel:0324562749",
+            "dataDate": "2026-09-01",
+            "verifiedFields": 5
+          },
+          {
+            "name": "정서진문화공원",
+            "phone": "tel:0324562749",
+            "dataDate": "2026-09-01",
+            "verifiedFields": 5
+          }
+        ],
+        "detailRoundTrips": 2,
+        "manualReconstructionFields": 10,
+        "nativePrepared": 0,
+        "comparisonRegion": 0,
+        "fieldsAvailableIndividually": 10,
+        "realUserOutcome": "미측정"
+      },
+      {
+        "service": "parks",
+        "mode": "오류복구",
+        "sourceSha256": "acf65a94342b8eff374b83f1f9004f7ba516608068a9249b2363d046d5128f25",
+        "candidates": [
+          {
+            "name": "노을공원",
+            "phone": "tel:0324562749",
+            "dataDate": "2026-09-01",
+            "verifiedFields": 5
+          },
+          {
+            "name": "정서진문화공원",
+            "phone": "tel:0324562749",
+            "dataDate": "2026-09-01",
+            "verifiedFields": 5
+          }
+        ],
+        "detailRoundTrips": 2,
+        "manualReconstructionFields": 10,
+        "nativePrepared": 0,
+        "comparisonRegion": 0,
+        "fieldsAvailableIndividually": 10,
+        "realUserOutcome": "미측정"
+      }
+    ]
+  },
+  "realUserOutcome": "미측정"
+}
