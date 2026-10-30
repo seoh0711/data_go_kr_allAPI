@@ -1,0 +1,166 @@
+{
+  "sourceCommit": "0a4a7bd79cea05dfd3c449c66c97c478ca6d7bb9",
+  "kind": "에이전트 대리 과업",
+  "reuse": {
+    "measuredAt": "2026-10-30T08:34:12.747Z",
+    "kind": "에이전트 자동화 대리 과업",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "base": "https://data-go-kr-api-atlas.pages.dev",
+    "cases": [
+      {
+        "mode": "모바일",
+        "fixtureNames": [
+          "광양시 재활용품 선별시설",
+          "양주시재활용선별장"
+        ],
+        "sourceSha256": "0b23d64fd36bd4c46ffecb19845d6ce0f2418eeb076da125fa52f059bfe7c995",
+        "comparisonFieldsVerified": 10,
+        "reviewControls": 0,
+        "uncheckedReviewNotice": 0,
+        "reviewRecordedInMemo": false,
+        "detailRoundTrips": 0,
+        "manualReconstructionFields": 0,
+        "nativePrepared": 1,
+        "keyboardOnly": false,
+        "selectedPreservedAfterFailure": null,
+        "overflow": false,
+        "realUserOutcome": "미측정"
+      },
+      {
+        "mode": "키보드",
+        "fixtureNames": [
+          "광양시 재활용품 선별시설",
+          "양주시재활용선별장"
+        ],
+        "sourceSha256": "0b23d64fd36bd4c46ffecb19845d6ce0f2418eeb076da125fa52f059bfe7c995",
+        "comparisonFieldsVerified": 10,
+        "reviewControls": 0,
+        "uncheckedReviewNotice": 0,
+        "reviewRecordedInMemo": false,
+        "detailRoundTrips": 0,
+        "manualReconstructionFields": 0,
+        "nativePrepared": 1,
+        "keyboardOnly": true,
+        "selectedPreservedAfterFailure": null,
+        "overflow": false,
+        "realUserOutcome": "미측정"
+      },
+      {
+        "mode": "오류복구",
+        "fixtureNames": [
+          "광양시 재활용품 선별시설",
+          "양주시재활용선별장"
+        ],
+        "sourceSha256": "0b23d64fd36bd4c46ffecb19845d6ce0f2418eeb076da125fa52f059bfe7c995",
+        "comparisonFieldsVerified": 10,
+        "reviewControls": 0,
+        "uncheckedReviewNotice": 0,
+        "reviewRecordedInMemo": false,
+        "detailRoundTrips": 0,
+        "manualReconstructionFields": 0,
+        "nativePrepared": 1,
+        "keyboardOnly": false,
+        "selectedPreservedAfterFailure": true,
+        "overflow": false,
+        "realUserOutcome": "미측정"
+      }
+    ],
+    "realUserOutcome": "미측정"
+  },
+  "travel": {
+    "measuredAt": "2026-10-30T08:36:46.706Z",
+    "kind": "에이전트 자동화 대리 과업",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "sourceCommit": "0a4a7bd79cea05dfd3c449c66c97c478ca6d7bb9",
+    "cases": [
+      {
+        "service": "travel-help",
+        "mode": "모바일",
+        "sourceSha256": "f6689c24a658a590da6ae1a738c229422e5cb8bd2599f34da6457e522bf6476e",
+        "candidates": [
+          {
+            "name": "고속터미널 관광안내소",
+            "phone": "tel:0336392830",
+            "dataDate": "2026-09-17",
+            "verifiedFields": 5
+          },
+          {
+            "name": "관광수산시장 관광안내소",
+            "phone": "tel:0336392568",
+            "dataDate": "2026-09-17",
+            "verifiedFields": 5
+          }
+        ],
+        "detailRoundTrips": 2,
+        "manualReconstructionFields": 10,
+        "nativePrepared": 0,
+        "reviewControls": 0,
+        "reviewRecordedInMemo": false,
+        "comparisonRegion": 0,
+        "fieldsAvailableIndividually": 10,
+        "realUserOutcome": "미측정"
+      },
+      {
+        "service": "travel-help",
+        "mode": "키보드",
+        "sourceSha256": "f6689c24a658a590da6ae1a738c229422e5cb8bd2599f34da6457e522bf6476e",
+        "candidates": [
+          {
+            "name": "고속터미널 관광안내소",
+            "phone": "tel:0336392830",
+            "dataDate": "2026-09-17",
+            "verifiedFields": 5
+          },
+          {
+            "name": "관광수산시장 관광안내소",
+            "phone": "tel:0336392568",
+            "dataDate": "2026-09-17",
+            "verifiedFields": 5
+          }
+        ],
+        "detailRoundTrips": 2,
+        "manualReconstructionFields": 10,
+        "nativePrepared": 0,
+        "reviewControls": 0,
+        "reviewRecordedInMemo": false,
+        "comparisonRegion": 0,
+        "fieldsAvailableIndividually": 10,
+        "realUserOutcome": "미측정"
+      },
+      {
+        "service": "travel-help",
+        "mode": "오류복구",
+        "sourceSha256": "f6689c24a658a590da6ae1a738c229422e5cb8bd2599f34da6457e522bf6476e",
+        "candidates": [
+          {
+            "name": "고속터미널 관광안내소",
+            "phone": "tel:0336392830",
+            "dataDate": "2026-09-17",
+            "verifiedFields": 5
+          },
+          {
+            "name": "관광수산시장 관광안내소",
+            "phone": "tel:0336392568",
+            "dataDate": "2026-09-17",
+            "verifiedFields": 5
+          }
+        ],
+        "detailRoundTrips": 2,
+        "manualReconstructionFields": 10,
+        "nativePrepared": 0,
+        "reviewControls": 0,
+        "reviewRecordedInMemo": false,
+        "comparisonRegion": 0,
+        "fieldsAvailableIndividually": 10,
+        "realUserOutcome": "미측정"
+      }
+    ]
+  },
+  "realUserOutcome": "미측정"
+}
