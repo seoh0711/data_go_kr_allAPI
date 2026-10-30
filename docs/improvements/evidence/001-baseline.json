@@ -1,0 +1,101 @@
+{
+  "measuredAt": "2026-10-30T02:49:53.622Z",
+  "kind": "에이전트 자동화 대리 과업",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "sourceCommit": "49a0b26499b944c9676e0eb0a005c327cd7f1c9e",
+  "cases": [
+    {
+      "service": "farm-rental",
+      "mode": "모바일",
+      "sourceSha256": "98607f64c1364e287e903a58a333d944a6f119fb514323ba05a9fcfed5641d90",
+      "detailRoundTrips": 2,
+      "manualReconstructionFields": 10,
+      "nativePrepared": 0,
+      "comparisonRegion": 0,
+      "fieldsAvailableIndividually": 10,
+      "realUserOutcome": "미측정",
+      "fixtureNames": [
+        "농업기계 임대사업장",
+        "농기계임대사업(동부점)"
+      ]
+    },
+    {
+      "service": "farm-rental",
+      "mode": "키보드",
+      "sourceSha256": "98607f64c1364e287e903a58a333d944a6f119fb514323ba05a9fcfed5641d90",
+      "detailRoundTrips": 2,
+      "manualReconstructionFields": 10,
+      "nativePrepared": 0,
+      "comparisonRegion": 0,
+      "fieldsAvailableIndividually": 10,
+      "realUserOutcome": "미측정",
+      "fixtureNames": [
+        "농업기계 임대사업장",
+        "농기계임대사업(동부점)"
+      ]
+    },
+    {
+      "service": "farm-rental",
+      "mode": "오류복구",
+      "sourceSha256": "98607f64c1364e287e903a58a333d944a6f119fb514323ba05a9fcfed5641d90",
+      "detailRoundTrips": 2,
+      "manualReconstructionFields": 10,
+      "nativePrepared": 0,
+      "comparisonRegion": 0,
+      "fieldsAvailableIndividually": 10,
+      "realUserOutcome": "미측정",
+      "fixtureNames": [
+        "농업기계 임대사업장",
+        "농기계임대사업(동부점)"
+      ]
+    },
+    {
+      "service": "recycling",
+      "mode": "모바일",
+      "sourceSha256": "748f203fa188131e5bc2a3e429cd90a6a4e2efa9a3d1cdc2ea32346dffc3aa32",
+      "detailRoundTrips": 2,
+      "manualReconstructionFields": 10,
+      "nativePrepared": 0,
+      "comparisonRegion": 0,
+      "fieldsAvailableIndividually": 10,
+      "realUserOutcome": "미측정",
+      "fixtureNames": [
+        "경상남도 창원시",
+        "경상북도 경주시"
+      ]
+    },
+    {
+      "service": "recycling",
+      "mode": "키보드",
+      "sourceSha256": "748f203fa188131e5bc2a3e429cd90a6a4e2efa9a3d1cdc2ea32346dffc3aa32",
+      "detailRoundTrips": 2,
+      "manualReconstructionFields": 10,
+      "nativePrepared": 0,
+      "comparisonRegion": 0,
+      "fieldsAvailableIndividually": 10,
+      "realUserOutcome": "미측정",
+      "fixtureNames": [
+        "경상남도 창원시",
+        "경상북도 경주시"
+      ]
+    },
+    {
+      "service": "recycling",
+      "mode": "오류복구",
+      "sourceSha256": "748f203fa188131e5bc2a3e429cd90a6a4e2efa9a3d1cdc2ea32346dffc3aa32",
+      "detailRoundTrips": 2,
+      "manualReconstructionFields": 10,
+      "nativePrepared": 0,
+      "comparisonRegion": 0,
+      "fieldsAvailableIndividually": 10,
+      "realUserOutcome": "미측정",
+      "fixtureNames": [
+        "경상남도 창원시",
+        "경상북도 경주시"
+      ]
+    }
+  ]
+}

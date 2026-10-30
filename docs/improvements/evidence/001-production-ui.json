@@ -1,0 +1,33 @@
+{
+  "verifiedAt": "2026-10-30T03:08:38.496Z",
+  "memo": {
+    "color": "rgb(49, 87, 69)",
+    "background": "rgb(255, 255, 255)",
+    "readonly": true,
+    "characters": 721
+  },
+  "sources": [
+    {
+      "key": "gov24",
+      "status": "live",
+      "received": 100,
+      "matched": 0,
+      "fetchedAt": "2026-10-30T03:08:04.802Z"
+    },
+    {
+      "key": "central",
+      "status": "live",
+      "received": 100,
+      "matched": 1,
+      "fetchedAt": "2026-10-30T03:08:03.614Z"
+    },
+    {
+      "key": "local",
+      "status": "live",
+      "received": 100,
+      "matched": 0,
+      "fetchedAt": "2026-10-30T03:08:04.103Z"
+    }
+  ],
+  "renderedGuides": 1
+}

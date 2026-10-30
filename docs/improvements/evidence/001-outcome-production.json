@@ -1,0 +1,60 @@
+{
+  "measuredAt": "2026-10-30T03:08:04.056Z",
+  "kind": "에이전트 자동화 대리 과업",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "base": "https://data-go-kr-api-atlas.pages.dev",
+  "cases": [
+    {
+      "mode": "모바일",
+      "fixtureNames": [
+        "광양시 재활용품 선별시설",
+        "양주시재활용선별장"
+      ],
+      "sourceSha256": "0b23d64fd36bd4c46ffecb19845d6ce0f2418eeb076da125fa52f059bfe7c995",
+      "comparisonFieldsVerified": 10,
+      "detailRoundTrips": 0,
+      "manualReconstructionFields": 0,
+      "nativePrepared": 1,
+      "keyboardOnly": false,
+      "selectedPreservedAfterFailure": null,
+      "overflow": false,
+      "realUserOutcome": "미측정"
+    },
+    {
+      "mode": "키보드",
+      "fixtureNames": [
+        "광양시 재활용품 선별시설",
+        "양주시재활용선별장"
+      ],
+      "sourceSha256": "0b23d64fd36bd4c46ffecb19845d6ce0f2418eeb076da125fa52f059bfe7c995",
+      "comparisonFieldsVerified": 10,
+      "detailRoundTrips": 0,
+      "manualReconstructionFields": 0,
+      "nativePrepared": 1,
+      "keyboardOnly": true,
+      "selectedPreservedAfterFailure": null,
+      "overflow": false,
+      "realUserOutcome": "미측정"
+    },
+    {
+      "mode": "오류복구",
+      "fixtureNames": [
+        "광양시 재활용품 선별시설",
+        "양주시재활용선별장"
+      ],
+      "sourceSha256": "0b23d64fd36bd4c46ffecb19845d6ce0f2418eeb076da125fa52f059bfe7c995",
+      "comparisonFieldsVerified": 10,
+      "detailRoundTrips": 0,
+      "manualReconstructionFields": 0,
+      "nativePrepared": 1,
+      "keyboardOnly": false,
+      "selectedPreservedAfterFailure": true,
+      "overflow": false,
+      "realUserOutcome": "미측정"
+    }
+  ],
+  "realUserOutcome": "미측정"
+}
