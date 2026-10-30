@@ -1,0 +1,67 @@
+{
+  "measuredAt": "2026-10-30T14:47:36.874Z",
+  "kind": "에이전트 대리 과업",
+  "cases": [
+    {
+      "mode": "모바일",
+      "baseURL": "https://data-go-kr-api-atlas.pages.dev",
+      "recordIds": [
+        "room-7c970db0ff5acf41",
+        "room-73b4ad3036c4087b"
+      ],
+      "sourceRevision": "8ae1cd6602678d0df60a85e16afda4d2d81b8c1b6d0d11731fbfedd86763efce",
+      "verifiedGroups": 10,
+      "sourceQuestions": 3,
+      "reviewCount": 3,
+      "prepared": 1,
+      "restoredPreparedAfterClear": 1,
+      "restoreActivationCount": 1,
+      "restoredTextEqual": true,
+      "detailRoundTrips": 0,
+      "externalReconstruction": 0,
+      "overflow": false,
+      "realUserOutcome": "미측정"
+    },
+    {
+      "mode": "키보드",
+      "baseURL": "https://data-go-kr-api-atlas.pages.dev",
+      "recordIds": [
+        "room-7c970db0ff5acf41",
+        "room-73b4ad3036c4087b"
+      ],
+      "sourceRevision": "8ae1cd6602678d0df60a85e16afda4d2d81b8c1b6d0d11731fbfedd86763efce",
+      "verifiedGroups": 10,
+      "sourceQuestions": 3,
+      "reviewCount": 3,
+      "prepared": 1,
+      "restoredPreparedAfterClear": 1,
+      "restoreActivationCount": 1,
+      "restoredTextEqual": true,
+      "detailRoundTrips": 0,
+      "externalReconstruction": 0,
+      "overflow": false,
+      "realUserOutcome": "미측정"
+    },
+    {
+      "mode": "오류복구",
+      "baseURL": "https://data-go-kr-api-atlas.pages.dev",
+      "recordIds": [
+        "room-7c970db0ff5acf41",
+        "room-73b4ad3036c4087b"
+      ],
+      "sourceRevision": "8ae1cd6602678d0df60a85e16afda4d2d81b8c1b6d0d11731fbfedd86763efce",
+      "verifiedGroups": 10,
+      "sourceQuestions": 3,
+      "reviewCount": 3,
+      "prepared": 1,
+      "restoredPreparedAfterClear": 1,
+      "restoreActivationCount": 1,
+      "restoredTextEqual": true,
+      "detailRoundTrips": 0,
+      "externalReconstruction": 0,
+      "overflow": false,
+      "realUserOutcome": "미측정"
+    }
+  ],
+  "realUserOutcome": "미측정"
+}

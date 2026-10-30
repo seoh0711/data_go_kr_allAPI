@@ -1,0 +1,29 @@
+{
+  "verifiedAt": "2026-10-30T14:47:59.615Z",
+  "kind": "운영 UI 실제 응답 확인",
+  "sources": [
+    {
+      "key": "gov24",
+      "status": "live",
+      "rows": 100,
+      "fetchedAt": "2026-10-30T14:47:34.821Z"
+    },
+    {
+      "key": "central",
+      "status": "live",
+      "rows": 100,
+      "fetchedAt": "2026-10-30T14:47:34.115Z"
+    },
+    {
+      "key": "local",
+      "status": "live",
+      "rows": 100,
+      "fetchedAt": "2026-10-30T14:47:34.441Z"
+    }
+  ],
+  "matchedGuides": 30,
+  "displayedGuides": 30,
+  "selectionCount": 2,
+  "reviewCount": 3,
+  "memoPreserved": true
+}

@@ -1,0 +1,161 @@
+{
+  "sourceCommit": "981733f80f3d7610c5dc535860f54a979a8b765c",
+  "kind": "에이전트 대리 과업",
+  "planner": {
+    "measuredAt": "2026-10-30T14:36:31.285Z",
+    "kind": "에이전트 대리 과업",
+    "cases": [
+      {
+        "undoControls": 0,
+        "restoredPreparedAfterClear": 0,
+        "mode": "모바일",
+        "baseURL": "https://data-go-kr-api-atlas.pages.dev",
+        "apiIds": [
+          "15113968",
+          "15090532"
+        ],
+        "comparisonGroups": 10,
+        "detailRoundTrips": 0,
+        "externalReconstruction": 0,
+        "reviewItems": 3,
+        "reviewPendingNotice": true,
+        "reviewMarkedPreparation": 1,
+        "selectionPreservedAfterFailure": null,
+        "overflow": false,
+        "realUserOutcome": "미측정"
+      },
+      {
+        "undoControls": 0,
+        "restoredPreparedAfterClear": 0,
+        "mode": "키보드",
+        "baseURL": "https://data-go-kr-api-atlas.pages.dev",
+        "apiIds": [
+          "15113968",
+          "15090532"
+        ],
+        "comparisonGroups": 10,
+        "detailRoundTrips": 0,
+        "externalReconstruction": 0,
+        "reviewItems": 3,
+        "reviewPendingNotice": true,
+        "reviewMarkedPreparation": 1,
+        "selectionPreservedAfterFailure": null,
+        "overflow": false,
+        "realUserOutcome": "미측정"
+      },
+      {
+        "undoControls": 0,
+        "restoredPreparedAfterClear": 0,
+        "mode": "오류복구",
+        "baseURL": "https://data-go-kr-api-atlas.pages.dev",
+        "apiIds": [
+          "15113968",
+          "15090532"
+        ],
+        "comparisonGroups": 10,
+        "detailRoundTrips": 0,
+        "externalReconstruction": 0,
+        "reviewItems": 3,
+        "reviewPendingNotice": true,
+        "reviewMarkedPreparation": 1,
+        "selectionPreservedAfterFailure": true,
+        "overflow": false,
+        "realUserOutcome": "미측정"
+      }
+    ],
+    "realUserOutcome": "미측정"
+  },
+  "sports": {
+    "measuredAt": "2026-10-30T14:36:12.614Z",
+    "kind": "에이전트 자동화 대리 과업",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "sourceCommit": "981733f80f3d7610c5dc535860f54a979a8b765c",
+    "cases": [
+      {
+        "service": "sports",
+        "mode": "모바일",
+        "sourceSha256": "09a4edbd31ebbaa2b3407354abaa31b68c336a268b536cf6deb74b2b8c9b141f",
+        "candidates": [
+          {
+            "name": "고양리틀야구장",
+            "phone": "미표시",
+            "dataDate": "2026-09-30",
+            "verifiedFields": 4,
+            "phoneLinks": 0
+          },
+          {
+            "name": "고양국민체육센터 다목적 체육관",
+            "phone": "미표시",
+            "dataDate": "2026-09-30",
+            "verifiedFields": 4,
+            "phoneLinks": 0
+          }
+        ],
+        "detailRoundTrips": 2,
+        "manualReconstructionFields": 8,
+        "nativePrepared": 0,
+        "comparisonRegion": 0,
+        "fieldsAvailableIndividually": 8,
+        "realUserOutcome": "미측정"
+      },
+      {
+        "service": "sports",
+        "mode": "키보드",
+        "sourceSha256": "09a4edbd31ebbaa2b3407354abaa31b68c336a268b536cf6deb74b2b8c9b141f",
+        "candidates": [
+          {
+            "name": "고양리틀야구장",
+            "phone": "미표시",
+            "dataDate": "2026-09-30",
+            "verifiedFields": 4,
+            "phoneLinks": 0
+          },
+          {
+            "name": "고양국민체육센터 다목적 체육관",
+            "phone": "미표시",
+            "dataDate": "2026-09-30",
+            "verifiedFields": 4,
+            "phoneLinks": 0
+          }
+        ],
+        "detailRoundTrips": 2,
+        "manualReconstructionFields": 8,
+        "nativePrepared": 0,
+        "comparisonRegion": 0,
+        "fieldsAvailableIndividually": 8,
+        "realUserOutcome": "미측정"
+      },
+      {
+        "service": "sports",
+        "mode": "오류복구",
+        "sourceSha256": "09a4edbd31ebbaa2b3407354abaa31b68c336a268b536cf6deb74b2b8c9b141f",
+        "candidates": [
+          {
+            "name": "고양리틀야구장",
+            "phone": "미표시",
+            "dataDate": "2026-09-30",
+            "verifiedFields": 4,
+            "phoneLinks": 0
+          },
+          {
+            "name": "고양국민체육센터 다목적 체육관",
+            "phone": "미표시",
+            "dataDate": "2026-09-30",
+            "verifiedFields": 4,
+            "phoneLinks": 0
+          }
+        ],
+        "detailRoundTrips": 2,
+        "manualReconstructionFields": 8,
+        "nativePrepared": 0,
+        "comparisonRegion": 0,
+        "fieldsAvailableIndividually": 8,
+        "realUserOutcome": "미측정"
+      }
+    ]
+  },
+  "realUserOutcome": "미측정"
+}
