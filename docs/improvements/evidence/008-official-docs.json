@@ -1,0 +1,40 @@
+{
+  "checkedAt": "2026-10-31T20:33:31.407581+00:00",
+  "results": [
+    {
+      "id": "15077184",
+      "status": 200,
+      "bytes": 206438,
+      "title": "전남광주통합특별시 광양시_자전거대여소 | 공공데이터포털"
+    },
+    {
+      "id": "15113968",
+      "status": 200,
+      "bytes": 196221,
+      "title": "행정안전부_대한민국 공공서비스(혜택) 정보 | 공공데이터포털"
+    },
+    {
+      "id": "15090532",
+      "status": 200,
+      "bytes": 218742,
+      "title": "한국사회보장정보원_중앙부처복지서비스 | 공공데이터포털"
+    },
+    {
+      "id": "15108347",
+      "status": 200,
+      "bytes": 217433,
+      "title": "한국사회보장정보원_지자체복지서비스 | 공공데이터포털"
+    },
+    {
+      "id": "15017319",
+      "status": 200,
+      "bytes": 1334877,
+      "sha256": "6398b70b7f12be0308b189c5b6a475315eb58cb72374742fcfd5c4d6052e5d59",
+      "parsedRows": 499
+    }
+  ],
+  "individualApprovalVerified": false,
+  "newGuidePath": "https://apis.data.go.kr/4840000/bcycllend1/getbcycllendList1",
+  "newGuidePathFound": true,
+  "newGuideActuallyConnected": false
+}

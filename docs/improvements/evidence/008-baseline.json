@@ -1,0 +1,191 @@
+{
+  "villages": {
+    "measuredAt": "2026-10-31T20:33:32.208Z",
+    "kind": "에이전트 대리 과업",
+    "cases": [
+      {
+        "contactControls": 0,
+        "contactInPrepared": false,
+        "mode": "모바일",
+        "baseURL": "https://data-go-kr-api-atlas.pages.dev",
+        "sourceRevision": "709ae6ba55db67efd8b7cbb779d9d1b108b65a032cda7623cf23890bb368aad8",
+        "recordIds": [
+          "village-80edf78db0556f6b",
+          "village-305e876d00b6de16",
+          "village-c7a20cf5eb101b9d"
+        ],
+        "verifiedGroups": 10,
+        "reasonAnchors": 3,
+        "questions": 2,
+        "anchorsPerQuestion": 3,
+        "replacementGroups": 5,
+        "questionImpactPairs": 2,
+        "priorityAnchors": 4,
+        "priorityImpactShown": true,
+        "priorityRestored": true,
+        "newPriorityReprepared": true,
+        "missingValuePreserved": true,
+        "cancelPreserved": true,
+        "undoRestored": true,
+        "oldQuestionsInvalidated": true,
+        "newQuestionsReprepared": true,
+        "detailRoundTrips": 0,
+        "externalReconstruction": 0,
+        "overflow": false,
+        "realUserOutcome": "미측정"
+      },
+      {
+        "contactControls": 0,
+        "contactInPrepared": false,
+        "mode": "키보드",
+        "baseURL": "https://data-go-kr-api-atlas.pages.dev",
+        "sourceRevision": "709ae6ba55db67efd8b7cbb779d9d1b108b65a032cda7623cf23890bb368aad8",
+        "recordIds": [
+          "village-80edf78db0556f6b",
+          "village-305e876d00b6de16",
+          "village-c7a20cf5eb101b9d"
+        ],
+        "verifiedGroups": 10,
+        "reasonAnchors": 3,
+        "questions": 2,
+        "anchorsPerQuestion": 3,
+        "replacementGroups": 5,
+        "questionImpactPairs": 2,
+        "priorityAnchors": 4,
+        "priorityImpactShown": true,
+        "priorityRestored": true,
+        "newPriorityReprepared": true,
+        "missingValuePreserved": true,
+        "cancelPreserved": true,
+        "undoRestored": true,
+        "oldQuestionsInvalidated": true,
+        "newQuestionsReprepared": true,
+        "detailRoundTrips": 0,
+        "externalReconstruction": 0,
+        "overflow": false,
+        "realUserOutcome": "미측정"
+      },
+      {
+        "contactControls": 0,
+        "contactInPrepared": false,
+        "mode": "오류복구",
+        "baseURL": "https://data-go-kr-api-atlas.pages.dev",
+        "sourceRevision": "709ae6ba55db67efd8b7cbb779d9d1b108b65a032cda7623cf23890bb368aad8",
+        "recordIds": [
+          "village-80edf78db0556f6b",
+          "village-305e876d00b6de16",
+          "village-c7a20cf5eb101b9d"
+        ],
+        "verifiedGroups": 10,
+        "reasonAnchors": 3,
+        "questions": 2,
+        "anchorsPerQuestion": 3,
+        "replacementGroups": 5,
+        "questionImpactPairs": 2,
+        "priorityAnchors": 4,
+        "priorityImpactShown": true,
+        "priorityRestored": true,
+        "newPriorityReprepared": true,
+        "missingValuePreserved": true,
+        "cancelPreserved": true,
+        "undoRestored": true,
+        "oldQuestionsInvalidated": true,
+        "newQuestionsReprepared": true,
+        "detailRoundTrips": 0,
+        "externalReconstruction": 0,
+        "overflow": false,
+        "realUserOutcome": "미측정"
+      }
+    ],
+    "realUserOutcome": "미측정"
+  },
+  "parking": {
+    "measuredAt": "2026-10-31T20:33:21.279Z",
+    "kind": "에이전트 대리 과업",
+    "sourceCommit": "5c586dee7b571d5ab33dbeff5b74d9b178841d17",
+    "cases": [
+      {
+        "contactControls": 0,
+        "contactBoundToQuestion": false,
+        "mode": "모바일",
+        "sourceSha256": "69a994c72db0f03ce14100ae58a9aa1dd23bcf6cc6f065c8736d96802d8e7472",
+        "candidates": [
+          {
+            "name": "(구)도선장 주차장",
+            "dataDate": "2026-08-04",
+            "phoneText": "미제공",
+            "verifiedGroups": 5,
+            "sourceLinks": 1
+          },
+          {
+            "name": "(구)중앙의원 앞",
+            "dataDate": "2026-08-13",
+            "phoneText": "344-540-3492",
+            "verifiedGroups": 5,
+            "sourceLinks": 1
+          }
+        ],
+        "verifiedGroups": 10,
+        "detailRoundTrips": 2,
+        "selectionReasonControls": 0,
+        "nativePrepared": 0,
+        "realUserOutcome": "미측정"
+      },
+      {
+        "contactControls": 0,
+        "contactBoundToQuestion": false,
+        "mode": "키보드",
+        "sourceSha256": "69a994c72db0f03ce14100ae58a9aa1dd23bcf6cc6f065c8736d96802d8e7472",
+        "candidates": [
+          {
+            "name": "(구)도선장 주차장",
+            "dataDate": "2026-08-04",
+            "phoneText": "미제공",
+            "verifiedGroups": 5,
+            "sourceLinks": 1
+          },
+          {
+            "name": "(구)중앙의원 앞",
+            "dataDate": "2026-08-13",
+            "phoneText": "344-540-3492",
+            "verifiedGroups": 5,
+            "sourceLinks": 1
+          }
+        ],
+        "verifiedGroups": 10,
+        "detailRoundTrips": 2,
+        "selectionReasonControls": 0,
+        "nativePrepared": 0,
+        "realUserOutcome": "미측정"
+      },
+      {
+        "contactControls": 0,
+        "contactBoundToQuestion": false,
+        "mode": "오류복구",
+        "sourceSha256": "69a994c72db0f03ce14100ae58a9aa1dd23bcf6cc6f065c8736d96802d8e7472",
+        "candidates": [
+          {
+            "name": "(구)도선장 주차장",
+            "dataDate": "2026-08-04",
+            "phoneText": "미제공",
+            "verifiedGroups": 5,
+            "sourceLinks": 1
+          },
+          {
+            "name": "(구)중앙의원 앞",
+            "dataDate": "2026-08-13",
+            "phoneText": "344-540-3492",
+            "verifiedGroups": 5,
+            "sourceLinks": 1
+          }
+        ],
+        "verifiedGroups": 10,
+        "detailRoundTrips": 2,
+        "selectionReasonControls": 0,
+        "nativePrepared": 0,
+        "realUserOutcome": "미측정"
+      }
+    ]
+  },
+  "baselineChecks": 8
+}
