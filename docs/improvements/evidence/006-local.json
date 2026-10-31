@@ -1,0 +1,82 @@
+{
+  "measuredAt": "2026-10-31T08:48:43.996Z",
+  "kind": "에이전트 대리 과업",
+  "cases": [
+    {
+      "mode": "모바일",
+      "baseURL": "http://127.0.0.1:5173",
+      "sourceRevision": "a86d11edf077d6706fe147ba52966e41a605c57068139f495107931959b6d655",
+      "recordIds": [
+        "school-accb631f55e13ec7",
+        "school-2814056d3496983e",
+        "school-c44b62a1716950a3"
+      ],
+      "verifiedGroups": 10,
+      "reasonAnchors": 3,
+      "questions": 2,
+      "anchorsPerQuestion": 3,
+      "replacementGroups": 5,
+      "questionImpactPairs": 2,
+      "missingValuePreserved": true,
+      "cancelPreserved": true,
+      "undoRestored": true,
+      "oldQuestionsInvalidated": true,
+      "newQuestionsReprepared": true,
+      "detailRoundTrips": 0,
+      "externalReconstruction": 0,
+      "overflow": false,
+      "realUserOutcome": "미측정"
+    },
+    {
+      "mode": "키보드",
+      "baseURL": "http://127.0.0.1:5173",
+      "sourceRevision": "a86d11edf077d6706fe147ba52966e41a605c57068139f495107931959b6d655",
+      "recordIds": [
+        "school-accb631f55e13ec7",
+        "school-2814056d3496983e",
+        "school-c44b62a1716950a3"
+      ],
+      "verifiedGroups": 10,
+      "reasonAnchors": 3,
+      "questions": 2,
+      "anchorsPerQuestion": 3,
+      "replacementGroups": 5,
+      "questionImpactPairs": 2,
+      "missingValuePreserved": true,
+      "cancelPreserved": true,
+      "undoRestored": true,
+      "oldQuestionsInvalidated": true,
+      "newQuestionsReprepared": true,
+      "detailRoundTrips": 0,
+      "externalReconstruction": 0,
+      "overflow": false,
+      "realUserOutcome": "미측정"
+    },
+    {
+      "mode": "오류복구",
+      "baseURL": "http://127.0.0.1:5173",
+      "sourceRevision": "a86d11edf077d6706fe147ba52966e41a605c57068139f495107931959b6d655",
+      "recordIds": [
+        "school-accb631f55e13ec7",
+        "school-2814056d3496983e",
+        "school-c44b62a1716950a3"
+      ],
+      "verifiedGroups": 10,
+      "reasonAnchors": 3,
+      "questions": 2,
+      "anchorsPerQuestion": 3,
+      "replacementGroups": 5,
+      "questionImpactPairs": 2,
+      "missingValuePreserved": true,
+      "cancelPreserved": true,
+      "undoRestored": true,
+      "oldQuestionsInvalidated": true,
+      "newQuestionsReprepared": true,
+      "detailRoundTrips": 0,
+      "externalReconstruction": 0,
+      "overflow": false,
+      "realUserOutcome": "미측정"
+    }
+  ],
+  "realUserOutcome": "미측정"
+}

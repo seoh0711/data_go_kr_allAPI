@@ -1,0 +1,59 @@
+{
+  "checkedAt": "2026-10-31T08:34:37.266251+00:00",
+  "results": [
+    {
+      "id": "15110683",
+      "status": 200,
+      "bytes": 205409,
+      "sha256": "d27efdcd00343fc763523f99407dc8422aedad1d298fddb01156f89993bbb8a1",
+      "serviceTitle": "대전광역시_어린이보호구역조회서비스 | 공공데이터포털",
+      "existingEndpointTokensFound": {
+        "GetSchoListService": true,
+        "getSchoList": true
+      }
+    },
+    {
+      "id": "15113968",
+      "status": 200,
+      "bytes": 196221,
+      "sha256": "8d39dac5b38ea68834fdd31118ea4d906f4262ab5906d4ab44e23c60e83f5bdc",
+      "serviceTitle": "행정안전부_대한민국 공공서비스(혜택) 정보 | 공공데이터포털",
+      "existingEndpointTokensFound": {
+        "serviceList": false,
+        "api.odcloud.kr": false
+      }
+    },
+    {
+      "id": "15090532",
+      "status": 200,
+      "bytes": 218742,
+      "sha256": "2c93e6090a91bf26970b17c0f7b907ce8e8bc9ae717dcca770a89a6314b7823f",
+      "serviceTitle": "한국사회보장정보원_중앙부처복지서비스 | 공공데이터포털",
+      "existingEndpointTokensFound": {
+        "NationalWelfareInformationsV001": true,
+        "NationalWelfarelistV001": true
+      }
+    },
+    {
+      "id": "15108347",
+      "status": 200,
+      "bytes": 217433,
+      "sha256": "e53fe63108812c6b26110bd0c3fc467ffed858e02421cd06bc56c38a745925e1",
+      "serviceTitle": "한국사회보장정보원_지자체복지서비스 | 공공데이터포털",
+      "existingEndpointTokensFound": {
+        "LocalGovernmentWelfareInformations": true,
+        "LcgvWelfarelist": true
+      }
+    },
+    {
+      "id": "15012891",
+      "status": 200,
+      "bytes": 1055936,
+      "sha256": "a86d11edf077d6706fe147ba52966e41a605c57068139f495107931959b6d655",
+      "serviceTitle": "전국어린이보호구역표준데이터",
+      "parsedRows": 499,
+      "purpose": "공식 공개표/스키마 직접 확인"
+    }
+  ],
+  "latestPersonalApprovalConditionsVerified": false
+}

@@ -1,0 +1,32 @@
+{
+  "mobileOverflow": false,
+  "verifiedAt": "2026-10-31T08:49:41.911Z",
+  "client": "기본 브라우저의 원래 공개 UI,보안설정/UA 변경 없음",
+  "http": 200,
+  "sources": [
+    {
+      "key": "gov24",
+      "status": "live",
+      "rows": 100,
+      "fetchedAt": "2026-10-31T08:49:41.769Z"
+    },
+    {
+      "key": "central",
+      "status": "live",
+      "rows": 100,
+      "fetchedAt": "2026-10-31T08:49:40.854Z"
+    },
+    {
+      "key": "local",
+      "status": "live",
+      "rows": 100,
+      "fetchedAt": "2026-10-31T08:49:41.217Z"
+    }
+  ],
+  "matchedGuides": 31,
+  "displayedGuides": 31,
+  "questionsPreserved": 2,
+  "reviewPreserved": 3,
+  "reasonPreserved": true,
+  "memoPreserved": true
+}

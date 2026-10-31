@@ -1,0 +1,126 @@
+{
+  "inspection": {
+    "measuredAt": "2026-10-31T08:36:53.759Z",
+    "kind": "에이전트 대리 과업",
+    "cases": [
+      {
+        "questionControls": 0,
+        "unresolvedQuestionNote": false,
+        "mode": "모바일",
+        "baseURL": "https://data-go-kr-api-atlas.pages.dev",
+        "recordIds": [
+          "inspection-81cd369bef137ead",
+          "inspection-4e09bffef3fea2cd",
+          "inspection-dbaa708e1e282851"
+        ],
+        "sourceRevision": "4d9cd731513e5537865f87cd4d8aa71dbd88baf87a20a4b1952100f55c1a7451",
+        "verifiedGroups": 10,
+        "reasonAnchorsVerified": 3,
+        "replacementGroups": 5,
+        "changedGroups": 3,
+        "reasonImpactShown": true,
+        "placeholderPhoneNotLinked": true,
+        "placeholderReasonDisabled": true,
+        "cancelPreservedReason": true,
+        "undoRestoredReasonAndMemo": true,
+        "oldReasonInvalidated": true,
+        "newReasonReprepared": 1,
+        "detailRoundTrips": 0,
+        "externalReconstruction": 0,
+        "overflow": false,
+        "realUserOutcome": "미측정"
+      },
+      {
+        "questionControls": 0,
+        "unresolvedQuestionNote": false,
+        "mode": "키보드",
+        "baseURL": "https://data-go-kr-api-atlas.pages.dev",
+        "recordIds": [
+          "inspection-81cd369bef137ead",
+          "inspection-4e09bffef3fea2cd",
+          "inspection-dbaa708e1e282851"
+        ],
+        "sourceRevision": "4d9cd731513e5537865f87cd4d8aa71dbd88baf87a20a4b1952100f55c1a7451",
+        "verifiedGroups": 10,
+        "reasonAnchorsVerified": 3,
+        "replacementGroups": 5,
+        "changedGroups": 3,
+        "reasonImpactShown": true,
+        "placeholderPhoneNotLinked": true,
+        "placeholderReasonDisabled": true,
+        "cancelPreservedReason": true,
+        "undoRestoredReasonAndMemo": true,
+        "oldReasonInvalidated": true,
+        "newReasonReprepared": 1,
+        "detailRoundTrips": 0,
+        "externalReconstruction": 0,
+        "overflow": false,
+        "realUserOutcome": "미측정"
+      },
+      {
+        "questionControls": 0,
+        "unresolvedQuestionNote": false,
+        "mode": "오류복구",
+        "baseURL": "https://data-go-kr-api-atlas.pages.dev",
+        "recordIds": [
+          "inspection-81cd369bef137ead",
+          "inspection-4e09bffef3fea2cd",
+          "inspection-dbaa708e1e282851"
+        ],
+        "sourceRevision": "4d9cd731513e5537865f87cd4d8aa71dbd88baf87a20a4b1952100f55c1a7451",
+        "verifiedGroups": 10,
+        "reasonAnchorsVerified": 3,
+        "replacementGroups": 5,
+        "changedGroups": 3,
+        "reasonImpactShown": true,
+        "placeholderPhoneNotLinked": true,
+        "placeholderReasonDisabled": true,
+        "cancelPreservedReason": true,
+        "undoRestoredReasonAndMemo": true,
+        "oldReasonInvalidated": true,
+        "newReasonReprepared": 1,
+        "detailRoundTrips": 0,
+        "externalReconstruction": 0,
+        "overflow": false,
+        "realUserOutcome": "미측정"
+      }
+    ],
+    "realUserOutcome": "미측정"
+  },
+  "lighting": [
+    {
+      "mode": "모바일",
+      "recordId": "light-0c616ebc1917b62b",
+      "name": "6558S122",
+      "dataDate": "2026-09-15",
+      "sourceQuestionControls": 0,
+      "unresolvedQuestionNote": false,
+      "currentStateBoundary": true,
+      "overflow": false,
+      "sourceErrorRestored": false
+    },
+    {
+      "mode": "키보드",
+      "recordId": "light-0c616ebc1917b62b",
+      "name": "6558S122",
+      "dataDate": "2026-09-15",
+      "sourceQuestionControls": 0,
+      "unresolvedQuestionNote": false,
+      "currentStateBoundary": true,
+      "overflow": false,
+      "sourceErrorRestored": false
+    },
+    {
+      "mode": "오류복구",
+      "recordId": "light-0c616ebc1917b62b",
+      "name": "6558S122",
+      "dataDate": "2026-09-15",
+      "sourceQuestionControls": 0,
+      "unresolvedQuestionNote": false,
+      "currentStateBoundary": true,
+      "overflow": false,
+      "sourceErrorRestored": true
+    }
+  ],
+  "finalBrowserTests": 8
+}
