@@ -1,0 +1,405 @@
+{
+  "verifiedAt": "2026-10-31T03:11:58.220Z",
+  "client": "기본 브라우저의 동일 출처 요청,UA/인증/보안설정 변경 없음",
+  "routes": [
+    {
+      "path": "/",
+      "status": 200
+    },
+    {
+      "path": "/services/commute/",
+      "status": 200
+    },
+    {
+      "path": "/services/benefits/",
+      "status": 200
+    },
+    {
+      "path": "/services/culture/",
+      "status": 200
+    },
+    {
+      "path": "/services/parking/",
+      "status": 200
+    },
+    {
+      "path": "/services/sports/",
+      "status": 200
+    },
+    {
+      "path": "/services/recycling/",
+      "status": 200
+    },
+    {
+      "path": "/services/parks/",
+      "status": 200
+    },
+    {
+      "path": "/services/markets/",
+      "status": 200
+    },
+    {
+      "path": "/services/learning/",
+      "status": 200
+    },
+    {
+      "path": "/services/travel-help/",
+      "status": 200
+    },
+    {
+      "path": "/services/lockers/",
+      "status": 200
+    },
+    {
+      "path": "/services/mobility-power/",
+      "status": 200
+    },
+    {
+      "path": "/services/lighting/",
+      "status": 200
+    },
+    {
+      "path": "/services/care/",
+      "status": 200
+    },
+    {
+      "path": "/services/animal-help/",
+      "status": 200
+    },
+    {
+      "path": "/services/farm-rental/",
+      "status": 200
+    },
+    {
+      "path": "/services/reuse-centers/",
+      "status": 200
+    },
+    {
+      "path": "/services/api-planner/",
+      "status": 200
+    },
+    {
+      "path": "/services/meeting-rooms/",
+      "status": 200
+    },
+    {
+      "path": "/services/two-visits/",
+      "status": 200
+    },
+    {
+      "path": "/services/inspection/",
+      "status": 200
+    }
+  ],
+  "files": [
+    {
+      "path": "catalog.json",
+      "sha256": "3b2767048b1e3957acb1c04bc1bec7e01b93c0aec2b8fc591c4ecc137ba3e830",
+      "bytes": 1179
+    },
+    {
+      "path": "benefits-guides.json",
+      "sha256": "2b8ceca503050850e6df2fc495153affc91d6d0d89c190093290548c28ec60ab",
+      "bytes": 8476
+    },
+    {
+      "path": "culture-libraries.json",
+      "sha256": "2b41382a71627f4444febf702eac271f6fac32ea07efeead1fe856e5fb741616",
+      "bytes": 293319
+    },
+    {
+      "path": "parking-snapshot.json",
+      "sha256": "69a994c72db0f03ce14100ae58a9aa1dd23bcf6cc6f065c8736d96802d8e7472",
+      "bytes": 444797
+    },
+    {
+      "path": "sports-snapshot.json",
+      "sha256": "09a4edbd31ebbaa2b3407354abaa31b68c336a268b536cf6deb74b2b8c9b141f",
+      "bytes": 114665
+    },
+    {
+      "path": "recycling-bags.json",
+      "sha256": "748f203fa188131e5bc2a3e429cd90a6a4e2efa9a3d1cdc2ea32346dffc3aa32",
+      "bytes": 265310
+    },
+    {
+      "path": "parks-snapshot.json",
+      "sha256": "acf65a94342b8eff374b83f1f9004f7ba516608068a9249b2363d046d5128f25",
+      "bytes": 228740
+    },
+    {
+      "path": "markets-snapshot.json",
+      "sha256": "9ca445cf02d311dc77b9882efd57b1c803e10c2c22fb84f01b01e63a01c30c88",
+      "bytes": 235423
+    },
+    {
+      "path": "learning-courses.json",
+      "sha256": "8569ff2ea7a4fa57f2745b0924a5e63db644da3ca59026055887e9b044bb64aa",
+      "bytes": 398897
+    },
+    {
+      "path": "travel-help-desks.json",
+      "sha256": "f6689c24a658a590da6ae1a738c229422e5cb8bd2599f34da6457e522bf6476e",
+      "bytes": 353303
+    },
+    {
+      "path": "lockers-snapshot.json",
+      "sha256": "5ebfddb6f66c9c09e610f06a2f576b13c6d30b9e25db89cbfa1b191eff099533",
+      "bytes": 482951
+    },
+    {
+      "path": "mobility-power-snapshot.json",
+      "sha256": "3a13a40e1dc4d938a99498a732dd63c74d965d1af48b17bf7659e01adfd29078",
+      "bytes": 278504
+    },
+    {
+      "path": "lighting-snapshot.json",
+      "sha256": "c5eef3acc598fae04bb30cabf5fba1789f98ff17bdabe68b201fbfbd154d6265",
+      "bytes": 206321
+    },
+    {
+      "path": "lighting-api-guides.json",
+      "sha256": "1dbce97dfd35e35b4baac89bc40a4529928f58aa003f0afa553c992c10f2def6",
+      "bytes": 2105
+    },
+    {
+      "path": "care-centers.json",
+      "sha256": "def3fd2d807ad03749d06923e0dec171bae6700f2ef8eef96065e921ee3ae93e",
+      "bytes": 7799
+    },
+    {
+      "path": "animal-help-centers.json",
+      "sha256": "58a89d6d287133955a809b6e88efe01883dc0d2accd1134072fe980d7c694708",
+      "bytes": 22279
+    },
+    {
+      "path": "farm-rental-offices.json",
+      "sha256": "98607f64c1364e287e903a58a333d944a6f119fb514323ba05a9fcfed5641d90",
+      "bytes": 361655
+    },
+    {
+      "path": "reuse-centers.json",
+      "sha256": "0b23d64fd36bd4c46ffecb19845d6ce0f2418eeb076da125fa52f059bfe7c995",
+      "bytes": 114615
+    },
+    {
+      "path": "api-planner.json",
+      "sha256": "266f396c91f30d5d5b10616966c3df2dae7c9e991065a470bb222e1a26d4a9e0",
+      "bytes": 8850
+    },
+    {
+      "path": "meeting-rooms.json",
+      "sha256": "a09a0c15164969344f87a59329ff89b62a3ee86d4450c88373d9aa7c4ab35685",
+      "bytes": 50446
+    },
+    {
+      "path": "inspection-stations.json",
+      "sha256": "ef9ca325c234a78df4d3d359b3b1efb18c0204cd828ed5a4c6911d6339255d9d",
+      "bytes": 255319
+    },
+    {
+      "path": "catalog/part-000.json",
+      "sha256": "a377824a3c2e26b9c93449ccee26cf7d373f27f55426db3a0645d3466042cc73",
+      "bytes": 406691
+    },
+    {
+      "path": "catalog/part-001.json",
+      "sha256": "0ccd337c2b9425f5754adc8ff2f6923f2fde0adfff4baf357db6ac001388f15f",
+      "bytes": 577631
+    },
+    {
+      "path": "catalog/part-002.json",
+      "sha256": "d93e6d5b4738992f6c058e53b567c53c843b1036fbbb6bf6dcaba56cf780f95e",
+      "bytes": 634201
+    },
+    {
+      "path": "catalog/part-003.json",
+      "sha256": "2275605ec0a1e43254ca01515a936d1788cef50f507ca2a29b428778ac4677a6",
+      "bytes": 639296
+    },
+    {
+      "path": "catalog/part-004.json",
+      "sha256": "c9e081554a0678a5ce359a9a261aac45349b871bb8ac25b5bad1fed11f517bc5",
+      "bytes": 623400
+    },
+    {
+      "path": "catalog/part-005.json",
+      "sha256": "0d8a7d0eeac62ef44de123b75f229566b622db0abaa0dca16ed2b1b0fdff4d06",
+      "bytes": 558627
+    },
+    {
+      "path": "catalog/part-006.json",
+      "sha256": "7fbf3e4773d0858672b1e0b9542d3d69cbcca3c22922bc282ed0e24111983529",
+      "bytes": 571005
+    },
+    {
+      "path": "catalog/part-007.json",
+      "sha256": "f021051b42f2f110ada26ec975950698af740a9991ef1baecd04370801ba89c0",
+      "bytes": 604560
+    },
+    {
+      "path": "catalog/part-008.json",
+      "sha256": "3a5d268bd235dfd4681ff6ea3cbe8f79ac404b25709a08c1534000050953df85",
+      "bytes": 533785
+    },
+    {
+      "path": "catalog/part-009.json",
+      "sha256": "f595f0eb5dbbfe14f90febff35f3ddd0e93bdff0f871c8fc21cde08b42570743",
+      "bytes": 525231
+    },
+    {
+      "path": "catalog/part-010.json",
+      "sha256": "9dfcc1206624fec904aaeb228e4c66e46486a071581bc04e494a7a59f70fb652",
+      "bytes": 579635
+    },
+    {
+      "path": "catalog/part-011.json",
+      "sha256": "bfb621e52c1a06a93f03ff60ba351f134aedb4a13864ece33737a85ae0ba0f5c",
+      "bytes": 494375
+    },
+    {
+      "path": "catalog/part-012.json",
+      "sha256": "2e31801f299250c00d28a38e99eca78f543bc26abc0bc39f72d5cc7fd2caa4f6",
+      "bytes": 584136
+    },
+    {
+      "path": "catalog/part-013.json",
+      "sha256": "c71fd7c5fb8d2b0145e4bd56e22011cf0600c84c4fa5ce231f62a47b920fe178",
+      "bytes": 573395
+    },
+    {
+      "path": "catalog/part-014.json",
+      "sha256": "8ee2d9b0c15bfc09fbdfe26460229d0085e859cf5ebbe502e76d3ded100fe704",
+      "bytes": 616260
+    },
+    {
+      "path": "catalog/part-015.json",
+      "sha256": "ee00e533d30c83e50231e7cbe5987e094603061854323ba02f50b0da02fd9621",
+      "bytes": 580797
+    },
+    {
+      "path": "catalog/part-016.json",
+      "sha256": "f6d36e0654a6b4993d5ba0f4579f18cb32f4ec9602177e62394809865d5b852c",
+      "bytes": 445511
+    },
+    {
+      "path": "catalog/part-017.json",
+      "sha256": "4822cb6e921c494014ba5ac1a4e3eba730c78be741a00444739794cd32455f13",
+      "bytes": 466200
+    },
+    {
+      "path": "catalog/part-018.json",
+      "sha256": "a3eb558712f126ae561976d4902adeb3e63e80d283b18936ea0803b83fe93f16",
+      "bytes": 534204
+    },
+    {
+      "path": "catalog/part-019.json",
+      "sha256": "244d230dcd728480836c8893289a8fa11ebf5d3c22fb4982c4c75017252389ab",
+      "bytes": 579809
+    },
+    {
+      "path": "catalog/part-020.json",
+      "sha256": "7f13fd22968016b3951dcf94fb1acfd0a2d7612bf099401124ebd287a41e336e",
+      "bytes": 595091
+    },
+    {
+      "path": "catalog/part-021.json",
+      "sha256": "4882def04b79fb8c528f8ea6ebf560aa222d13e094f3258a478eda84beb058c3",
+      "bytes": 598293
+    },
+    {
+      "path": "catalog/part-022.json",
+      "sha256": "24dc72c65186e044e7c4249dc2562d7a6ff6cf96d3cfec2c89644209288b2552",
+      "bytes": 655657
+    },
+    {
+      "path": "catalog/part-023.json",
+      "sha256": "905b25dcbfa190e3437ecd8a0784f00f5f661085ddc1e5bc1f0b3dd6a7ebe344",
+      "bytes": 583819
+    },
+    {
+      "path": "catalog/part-024.json",
+      "sha256": "c0a9c48b6160941c2b996b25aa42e9069343bf77439c2eb7689da3a326b36799",
+      "bytes": 57779
+    },
+    {
+      "path": "index.html",
+      "sha256": "a904a22c517dc7770c11a7e7663d44b10e63805d5105f9f45e26cd73a9f8b455",
+      "bytes": 614
+    },
+    {
+      "path": "assets/index-C7T5eKJU.css",
+      "sha256": "47420cf096a8c77fbf8ee7e0138548908a8753a1e24195405447604461889694",
+      "bytes": 158099
+    },
+    {
+      "path": "assets/index-CnxRmdwv.js",
+      "sha256": "8f6d24bfed1eaddfafeb59b92d9aba7e57b59f16d938c1c87b47c2357891d61b",
+      "bytes": 660212
+    }
+  ],
+  "catalogRecords": 12051,
+  "catalogChunks": 25,
+  "apis": [
+    {
+      "path": "/api/parking",
+      "checkedAt": "2026-10-31T03:11:57.196Z",
+      "sources": [
+        {
+          "key": "busan",
+          "status": "live",
+          "rows": 20,
+          "hasObservation": null,
+          "failure": null
+        },
+        {
+          "key": "availability",
+          "status": "live",
+          "rows": 20,
+          "hasObservation": null,
+          "failure": null
+        }
+      ]
+    },
+    {
+      "path": "/api/culture",
+      "checkedAt": "2026-10-31T03:11:57.857Z",
+      "sources": [
+        {
+          "key": "places",
+          "status": "live",
+          "rows": 20,
+          "hasObservation": null,
+          "failure": null
+        },
+        {
+          "key": "events",
+          "status": "live",
+          "rows": 20,
+          "hasObservation": null,
+          "failure": null
+        }
+      ]
+    },
+    {
+      "path": "/api/parks?city=suwon",
+      "checkedAt": "2026-10-31T03:11:58.197Z",
+      "sources": [
+        {
+          "key": "weather",
+          "status": "live",
+          "rows": null,
+          "hasObservation": true,
+          "failure": null
+        },
+        {
+          "key": "air",
+          "status": "live",
+          "rows": null,
+          "hasObservation": true,
+          "failure": null
+        }
+      ]
+    }
+  ]
+}

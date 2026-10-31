@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-31",
+  "results": [
+    {
+      "id": "15113968",
+      "http": 503
+    },
+    {
+      "id": "15090532",
+      "http": 503
+    },
+    {
+      "id": "15108347",
+      "http": 200,
+      "bytes": 217433
+    },
+    {
+      "id": "15021107",
+      "http": 200,
+      "bytes": 1470805,
+      "parsedRows": 499,
+      "purpose": "공식 공개표/스키마 직접 확인"
+    }
+  ],
+  "localWelfareEndpointPathFound": true,
+  "localWelfareListOperationFound": true,
+  "latestApprovalConditionsVerified": false
+}

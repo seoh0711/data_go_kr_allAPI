@@ -1,0 +1,32 @@
+{
+  "verifiedAt": "2026-10-31T03:11:49.838Z",
+  "client": "기본 브라우저의 원래 공개 UI 흐름",
+  "http": 200,
+  "sources": [
+    {
+      "key": "gov24",
+      "status": "live",
+      "rows": 100,
+      "fetchedAt": "2026-10-31T03:05:16.876Z"
+    },
+    {
+      "key": "central",
+      "status": "live",
+      "rows": 100,
+      "fetchedAt": "2026-10-31T03:05:14.835Z"
+    },
+    {
+      "key": "local",
+      "status": "live",
+      "rows": 100,
+      "fetchedAt": "2026-10-31T03:05:15.420Z"
+    }
+  ],
+  "matchedGuides": 13,
+  "vehicleKeywordMatches": 13,
+  "bareInspectionOnlyExcluded": 5,
+  "displayedGuides": 13,
+  "reasonPreserved": true,
+  "reviewCount": 3,
+  "memoPreserved": true
+}
