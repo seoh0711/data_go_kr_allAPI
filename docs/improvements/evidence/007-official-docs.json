@@ -1,0 +1,38 @@
+{
+  "checkedAt": "2026-10-31T14:42:51.930888+00:00",
+  "results": [
+    {
+      "id": "15112087",
+      "status": 200,
+      "bytes": 208817,
+      "title": "경상남도 의령군_농어촌체험마을 서비스 | 공공데이터포털"
+    },
+    {
+      "id": "15113968",
+      "status": 503
+    },
+    {
+      "id": "15090532",
+      "status": 200,
+      "bytes": 218742,
+      "title": "한국사회보장정보원_중앙부처복지서비스 | 공공데이터포털"
+    },
+    {
+      "id": "15108347",
+      "status": 200,
+      "bytes": 217433,
+      "title": "한국사회보장정보원_지자체복지서비스 | 공공데이터포털"
+    },
+    {
+      "id": "15013113",
+      "status": 200,
+      "bytes": 1450268,
+      "parsedRows": 499,
+      "sha256": "709ae6ba55db67efd8b7cbb779d9d1b108b65a032cda7623cf23890bb368aad8"
+    }
+  ],
+  "individualApprovalVerified": false,
+  "newGuideOfficialPath": "https://apis.data.go.kr/5390000/uiryeongcdvilex/getUiryeongvilexListNew",
+  "newGuidePathFound": true,
+  "newGuideActuallyConnected": false
+}

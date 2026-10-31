@@ -1,0 +1,11 @@
+{
+  "project": "data-go-kr-api-atlas",
+  "deploymentId": "77127525-b864-4e84-8015-a0bbb2751b00",
+  "status": "success",
+  "productionBranch": "main",
+  "productionVariables": {
+    "DATA_GO_KR_SERVICE_KEY": "secret_text",
+    "SEOUL_SUBWAY_KEY": "secret_text"
+  },
+  "previewVariableNames": []
+}
