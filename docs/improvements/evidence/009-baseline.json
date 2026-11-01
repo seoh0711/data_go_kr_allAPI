@@ -1,0 +1,206 @@
+{
+  "bikeRental": {
+    "measuredAt": "2026-11-01T02:40:27.646Z",
+    "kind": "에이전트 대리 과업",
+    "cases": [
+      {
+        "readinessGuide": 0,
+        "actionableNextStep": 0,
+        "mode": "모바일",
+        "baseURL": "https://data-go-kr-api-atlas.pages.dev",
+        "sourceRevision": "6398b70b7f12be0308b189c5b6a475315eb58cb72374742fcfd5c4d6052e5d59",
+        "recordIds": [
+          "bike-244c86f6e4c43aea",
+          "bike-fa7877a1a739b0e6",
+          "bike-58424a3eb36350d6"
+        ],
+        "verifiedGroups": 10,
+        "reasonAnchors": 3,
+        "questions": 2,
+        "anchorsPerQuestion": 3,
+        "replacementGroups": 5,
+        "questionImpactPairs": 2,
+        "priorityAnchors": 4,
+        "contactAnchors": 5,
+        "contactImpactShown": true,
+        "contactRestored": true,
+        "newContactPrepared": true,
+        "priorityImpactShown": true,
+        "priorityRestored": true,
+        "newPriorityReprepared": true,
+        "missingValuePreserved": true,
+        "cancelPreserved": true,
+        "undoRestored": true,
+        "oldQuestionsInvalidated": true,
+        "newQuestionsReprepared": true,
+        "detailRoundTrips": 0,
+        "externalReconstruction": 0,
+        "overflow": false,
+        "realUserOutcome": "미측정"
+      },
+      {
+        "readinessGuide": 0,
+        "actionableNextStep": 0,
+        "mode": "키보드",
+        "baseURL": "https://data-go-kr-api-atlas.pages.dev",
+        "sourceRevision": "6398b70b7f12be0308b189c5b6a475315eb58cb72374742fcfd5c4d6052e5d59",
+        "recordIds": [
+          "bike-244c86f6e4c43aea",
+          "bike-fa7877a1a739b0e6",
+          "bike-58424a3eb36350d6"
+        ],
+        "verifiedGroups": 10,
+        "reasonAnchors": 3,
+        "questions": 2,
+        "anchorsPerQuestion": 3,
+        "replacementGroups": 5,
+        "questionImpactPairs": 2,
+        "priorityAnchors": 4,
+        "contactAnchors": 5,
+        "contactImpactShown": true,
+        "contactRestored": true,
+        "newContactPrepared": true,
+        "priorityImpactShown": true,
+        "priorityRestored": true,
+        "newPriorityReprepared": true,
+        "missingValuePreserved": true,
+        "cancelPreserved": true,
+        "undoRestored": true,
+        "oldQuestionsInvalidated": true,
+        "newQuestionsReprepared": true,
+        "detailRoundTrips": 0,
+        "externalReconstruction": 0,
+        "overflow": false,
+        "realUserOutcome": "미측정"
+      },
+      {
+        "readinessGuide": 0,
+        "actionableNextStep": 0,
+        "mode": "오류복구",
+        "baseURL": "https://data-go-kr-api-atlas.pages.dev",
+        "sourceRevision": "6398b70b7f12be0308b189c5b6a475315eb58cb72374742fcfd5c4d6052e5d59",
+        "recordIds": [
+          "bike-244c86f6e4c43aea",
+          "bike-fa7877a1a739b0e6",
+          "bike-58424a3eb36350d6"
+        ],
+        "verifiedGroups": 10,
+        "reasonAnchors": 3,
+        "questions": 2,
+        "anchorsPerQuestion": 3,
+        "replacementGroups": 5,
+        "questionImpactPairs": 2,
+        "priorityAnchors": 4,
+        "contactAnchors": 5,
+        "contactImpactShown": true,
+        "contactRestored": true,
+        "newContactPrepared": true,
+        "priorityImpactShown": true,
+        "priorityRestored": true,
+        "newPriorityReprepared": true,
+        "missingValuePreserved": true,
+        "cancelPreserved": true,
+        "undoRestored": true,
+        "oldQuestionsInvalidated": true,
+        "newQuestionsReprepared": true,
+        "detailRoundTrips": 0,
+        "externalReconstruction": 0,
+        "overflow": false,
+        "realUserOutcome": "미측정"
+      }
+    ],
+    "realUserOutcome": "미측정"
+  },
+  "parking": {
+    "measuredAt": "2026-11-01T02:40:13.761Z",
+    "kind": "에이전트 대리 과업",
+    "sourceCommit": "fc7839a6b77e0738f258e4b79e18f4d885b15080",
+    "cases": [
+      {
+        "readinessGuide": 0,
+        "contactControls": 0,
+        "contactBoundToQuestion": false,
+        "mode": "모바일",
+        "sourceSha256": "69a994c72db0f03ce14100ae58a9aa1dd23bcf6cc6f065c8736d96802d8e7472",
+        "candidates": [
+          {
+            "name": "(구)도선장 주차장",
+            "dataDate": "2026-08-04",
+            "phoneText": "미제공",
+            "verifiedGroups": 5,
+            "sourceLinks": 1
+          },
+          {
+            "name": "(구)중앙의원 앞",
+            "dataDate": "2026-08-13",
+            "phoneText": "344-540-3492",
+            "verifiedGroups": 5,
+            "sourceLinks": 1
+          }
+        ],
+        "verifiedGroups": 10,
+        "detailRoundTrips": 2,
+        "selectionReasonControls": 0,
+        "nativePrepared": 0,
+        "realUserOutcome": "미측정"
+      },
+      {
+        "readinessGuide": 0,
+        "contactControls": 0,
+        "contactBoundToQuestion": false,
+        "mode": "키보드",
+        "sourceSha256": "69a994c72db0f03ce14100ae58a9aa1dd23bcf6cc6f065c8736d96802d8e7472",
+        "candidates": [
+          {
+            "name": "(구)도선장 주차장",
+            "dataDate": "2026-08-04",
+            "phoneText": "미제공",
+            "verifiedGroups": 5,
+            "sourceLinks": 1
+          },
+          {
+            "name": "(구)중앙의원 앞",
+            "dataDate": "2026-08-13",
+            "phoneText": "344-540-3492",
+            "verifiedGroups": 5,
+            "sourceLinks": 1
+          }
+        ],
+        "verifiedGroups": 10,
+        "detailRoundTrips": 2,
+        "selectionReasonControls": 0,
+        "nativePrepared": 0,
+        "realUserOutcome": "미측정"
+      },
+      {
+        "readinessGuide": 0,
+        "contactControls": 0,
+        "contactBoundToQuestion": false,
+        "mode": "오류복구",
+        "sourceSha256": "69a994c72db0f03ce14100ae58a9aa1dd23bcf6cc6f065c8736d96802d8e7472",
+        "candidates": [
+          {
+            "name": "(구)도선장 주차장",
+            "dataDate": "2026-08-04",
+            "phoneText": "미제공",
+            "verifiedGroups": 5,
+            "sourceLinks": 1
+          },
+          {
+            "name": "(구)중앙의원 앞",
+            "dataDate": "2026-08-13",
+            "phoneText": "344-540-3492",
+            "verifiedGroups": 5,
+            "sourceLinks": 1
+          }
+        ],
+        "verifiedGroups": 10,
+        "detailRoundTrips": 2,
+        "selectionReasonControls": 0,
+        "nativePrepared": 0,
+        "realUserOutcome": "미측정"
+      }
+    ]
+  },
+  "baselineChecks": 9
+}
